@@ -64,6 +64,7 @@ function Worldcup() {
         </div>
     }
 
+
     if ( game.length === 0 || round + 1 > game.length / 2 ) return <p>로딩중입니다</p>;
         return <div> 
                 <p style={{
